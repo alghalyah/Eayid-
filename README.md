@@ -1,5 +1,3 @@
-# Eayid-
-
 # Eayid | عائد
 
 **Eayid (عائد)** is a smart platform designed to simplify the management of lost and found items within institutions. It helps users report, organize, search for, and track lost and found items through a simple and organized interface.
@@ -25,16 +23,25 @@ Eayid aims to improve the way institutions manage lost and found items by provid
 
 Google Gemini
 
+## Development Program | البرنامج التطويري
+
+**Generative Programming (Vibe Coding)** organized by **SDAIA**
+
+## Team Members | أعضاء الفريق
+
+* Tala Aljumaie
+* Alghalyah Almuneef
+* Leen Alhammad
+* Sarah Alfadhel
+* Alhanouf Aldakelallsh
+* Juman Abahussain
+* Ahmed Alshehri
+* Saad Almutiri
+
+## SDAIA Academy
+
+[GitHub — SDAIA Academy](https://github.com/SDAIAAcademy)
+
 ## Live Demo | تجربة المنصة
 
 [Visit Eayid | زيارة منصة عائد](https://eayid.netlify.app/)
-
-##Development Program
-
-Generative Programming (Vibe Coding) organized by SDAIA
-
-##Team members
-
--Tala Aljumaie. -Alghalyah Almuneef. -Leen Alhammad. -Sarah Alfadhel. -Alhanouf Aldakelallsh. -Juman Abahussain. -Ahmed Alshehri. -Saad Almutiri.
-
-https://github.com/SDAIAAcademy
