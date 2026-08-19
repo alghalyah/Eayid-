@@ -21,7 +21,7 @@ Eayid aims to improve the way institutions manage lost and found items by provid
 
 ## Technologies | التقنيات المستخدمة
 
-Google Gemini
+Google Antigravity
 
 ## Development Program | البرنامج التطويري
 
