@@ -29,8 +29,12 @@ Google Gemini
 
 [Visit Eayid | زيارة منصة عائد](https://eayid.netlify.app/)
 
-## Project Status | حالة المشروع
+##Development Program
 
-The project is currently under development, with potential for additional features and integrations in the future.
+Generative Programming (Vibe Coding) organized by SDAIA
 
-المشروع قيد التطوير، مع إمكانية إضافة المزيد من الخصائص والتكاملات مستقبلًا.
+##Team members
+
+-Tala Aljumaie. -Alghalyah Almuneef. -Leen Alhammad. -Sarah Alfadhel. -Alhanouf Aldakelallsh. -Juman Abahussain. -Ahmed Alshehri. -Saad Almutiri.
+
+https://github.com/SDAIAAcademy
