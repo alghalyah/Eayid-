@@ -34,7 +34,7 @@ Google Gemini
 * Alghalyah Almuneef
 * Leen Alhammad
 * Sarah Alfadhel
-* Alhanouf Aldakelallsh
+* Alhanouf Aldakelallah
 * Juman Abahussain
 * Ahmed Alshehri
 * Saad Almutiri
