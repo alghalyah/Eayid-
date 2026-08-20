@@ -1,0 +1,189 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Sakkal Majalla';
+  src: local('Sakkal Majalla'), local('Majalla'), local('majalla'), local('صقال مجلة'),
+       url('https://fonts.cdnfonts.com/s/72886/majalla.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sakkal Majalla';
+  src: local('Sakkal Majalla Bold'), local('Majalla Bold'), local('majallab'), local('صقال مجلة عريض'),
+       url('https://fonts.cdnfonts.com/s/72886/majallab.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sakkal Majalla';
+  src: local('Sakkal Majalla Bold'), local('Majalla Bold'), local('majallab'), local('صقال مجلة عريض'),
+       url('https://fonts.cdnfonts.com/s/72886/majallab.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --canvas: #F6F9F7;
+    --canvas-cream: #EEEFE9;
+    --surface-card: #FFFFFF;
+    --surface-soft: #EAF3EE;
+    --surface-subtle: #F2F8F5;
+    --surface-doc: #FCFCFA;
+    --surface-dark: #13231B;
+    --ink: #0F1F17;
+    --body: #2D3E35;
+    --charcoal: #1C2E24;
+    --mute: #5A6F64;
+    --ash: #8E9E96;
+    --stone: #B5C4BC;
+    --hairline: #E2EBE6;
+    --hairline-soft: #EDF4F0;
+    --brand-primary: #1B4332;
+    --brand-forest: #2D6A4F;
+    --brand-mint: #52B788;
+    --brand-gold: #F7A501;
+  }
+
+  html, body, *, ::before, ::after {
+    font-family: 'Sakkal Majalla', 'Majalla', 'صقال مجلة', 'Noto Naskh Arabic', sans-serif !important;
+  }
+
+  body {
+    background-color: var(--canvas);
+    color: var(--body);
+    font-family: 'Sakkal Majalla', 'Majalla', 'صقال مجلة', 'Noto Naskh Arabic', sans-serif !important;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, span, a, button, input, select, textarea, label, div, table, tr, td, th {
+    font-family: 'Sakkal Majalla', 'Majalla', 'صقال مجلة', 'Noto Naskh Arabic', sans-serif !important;
+  }
+
+  /* Universal Sakkal Majalla enforcement */
+  .readex-font,
+  .readex-font h1,
+  .readex-font h2,
+  .readex-font h3,
+  .readex-font h4,
+  .readex-font h5,
+  .readex-font h6,
+  .readex-font p,
+  .readex-font span,
+  .readex-font a,
+  .readex-font button,
+  .readex-font input,
+  .readex-font select,
+  .readex-font textarea,
+  .readex-font label,
+  .readex-font * {
+    font-family: 'Sakkal Majalla', 'Majalla', 'صقال مجلة', 'Noto Naskh Arabic', sans-serif !important;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EAF3EE;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B5C4BC;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8E9E96;
+}
+
+/* Modern Saudi Platform Component Utilities */
+@layer components {
+  .btn-gradient {
+    @apply inline-flex items-center justify-center gap-2 bg-gradient-to-r from-brand-emerald via-brand-forest to-brand-emerald text-white px-5 py-2.5 rounded-xl font-bold text-sm shadow-md hover:shadow-lift hover:scale-[1.02] active:scale-[0.98] transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-brand-emerald text-white px-5 py-2.5 rounded-xl font-bold text-sm transition-all duration-200 hover:bg-brand-forest hover:shadow-card active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 bg-brand-gold text-ink px-5 py-2.5 rounded-xl font-bold text-sm transition-all duration-200 hover:bg-[#E59900] active:scale-[0.98] shadow-sm;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 bg-surface-soft text-brand-emerald border border-brand-mint/30 px-5 py-2.5 rounded-xl font-bold text-sm transition-all duration-200 hover:bg-white hover:border-brand-mint hover:shadow-card active:scale-[0.98];
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 bg-transparent text-body hover:text-brand-emerald hover:bg-surface-soft/60 px-3.5 py-2 rounded-xl font-medium text-sm transition-all duration-150;
+  }
+
+  .card-flat {
+    @apply bg-surface-card border border-hairline rounded-2xl p-5 shadow-card hover:shadow-lift hover:border-brand-mint/40 transition-all duration-200;
+  }
+
+  .card-subtle {
+    @apply bg-surface-subtle border border-hairline-soft rounded-2xl p-5;
+  }
+
+  .pill-tab {
+    @apply px-4 py-2 rounded-xl text-xs font-bold transition-all duration-200 border border-transparent;
+  }
+
+  .pill-tab-active {
+    @apply bg-brand-emerald text-white shadow-sm border-brand-emerald;
+  }
+
+  .pill-tab-inactive {
+    @apply bg-surface-soft text-body hover:text-ink hover:bg-white border-hairline-soft;
+  }
+
+  .banner-tip-green {
+    @apply bg-accent-green-soft border border-accent-green/30 text-ink rounded-xl p-4 flex items-start gap-3;
+  }
+}
+
+/* Radar pulse animation for AI Scanning */
+@keyframes radar-sweep {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-radar {
+  animation: radar-sweep 2.5s linear infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(0.85);
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s ease-in-out infinite;
+}
