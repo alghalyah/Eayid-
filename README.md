@@ -21,8 +21,8 @@ Eayid aims to improve the way institutions manage lost and found items by provid
 
 ## Technologies | التقنيات المستخدمة
 
-Google Antigravity & 
-Google Gemini
+* Google Antigravity
+* Google Gemini
 
 ## Development Program | البرنامج التطويري
 
@@ -45,4 +45,4 @@ Google Gemini
 
 ## Live Demo | تجربة المنصة
 
-[Visit Eayid | زيارة منصة عائد]((https://eayidd.netlify.app/))
+[Visit Eayid | زيارة منصة عائد](https://eayidd.netlify.app/)
