@@ -45,4 +45,4 @@ Eayid aims to improve the way institutions manage lost and found items by provid
 
 ## Live Demo | تجربة المنصة
 
-[Visit Eayid | زيارة منصة عائد](https://eayidd.netlify.app/)
+[Visit Eayid | زيارة منصة عائد](https://eayid.netlify.app/)
