@@ -45,4 +45,4 @@ Google Gemini
 
 ## Live Demo | تجربة المنصة
 
-[Visit Eayid | زيارة منصة عائد]([https://eayid.netlify.app/](https://eayidd.netlify.app))
+[Visit Eayid | زيارة منصة عائد]((https://eayidd.netlify.app/))
